@@ -1,0 +1,89 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f6f9;
+}
+
+/* Container */
+
+.dashboard-container{
+  width:85%;
+  margin:auto;
+  margin-top:40px;
+  text-align:center;
+}
+
+/* Title */
+
+.dashboard-title{
+  color:#2c3e50;
+  margin-bottom:20px;
+}
+
+/* Create Button */
+
+.create-btn{
+  background:#2ecc71;
+  color:white;
+  border:none;
+  padding:10px 18px;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.create-btn:hover{
+  background:#27ae60;
+}
+
+/* Table */
+
+.customer-table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.customer-table th{
+  background:#34495e;
+  color:white;
+  padding:12px;
+}
+
+.customer-table td{
+  padding:10px;
+  border-bottom:1px solid #ddd;
+}
+
+.customer-table tr:hover{
+  background:#f2f2f2;
+}
+
+/* Action Buttons */
+
+.action-buttons button{
+  margin:3px;
+  padding:6px 10px;
+  border:none;
+  border-radius:4px;
+  color:white;
+  cursor:pointer;
+}
+
+.update-btn{
+  background:#3498db;
+}
+
+.delete-btn{
+  background:#e74c3c;
+}
+
+.plus-btn{
+  background:#2ecc71;
+}
+
+.minus-btn{
+  background:#f39c12;
+}
