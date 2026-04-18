@@ -89,7 +89,6 @@ const Create = () => {
               onChange={handleChange}
             />
           </div>
-
           <div className="form-group">
             <label>Total Weeks</label>
             <input

@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 import Home from "./Pages/Home"
-import Create from "./Pages/create"
+import Create from "./Pages/Create"
 import GetAllCustomer from "./Pages/GetAllCustomer"
 import Update from "./Pages/Update"
 import Deletion from "./Pages/Deletion"
