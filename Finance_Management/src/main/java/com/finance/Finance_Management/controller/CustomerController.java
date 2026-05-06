@@ -28,11 +28,18 @@ public class CustomerController {
         return service.createCustomer(customer);
     }
 
-    @GetMapping("getCustomer")
+
+
+    @GetMapping("/getCustomer")
     List<Customer> getAllCustomer()
     {
+
         return service.getAllCustomers();
     }
+
+
+
+
     @GetMapping("getCustomerById/{id}")
     Optional<Customer> getCustomerById(@PathVariable Long id)
     {

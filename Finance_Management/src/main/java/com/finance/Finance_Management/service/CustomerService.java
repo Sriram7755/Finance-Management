@@ -30,10 +30,13 @@ public class CustomerService {
        return  repo.save(customer);
 
     }
+
     public List<Customer> getAllCustomers()
     {
         return repo.findAll();
     }
+
+
     public Optional<Customer> getCustomerById(Long id)
     {
         return repo.findById(id);
